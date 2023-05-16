@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { UserModule } from './XmlToJson/XmlToJson.module';
+import { XmlToJsonModule } from './XmlToJson/XmlToJson.module';
 
 @Module({
-  imports: [UserModule],
+  imports: [XmlToJsonModule],
   controllers: [AppController],
   providers: [AppService],
 })

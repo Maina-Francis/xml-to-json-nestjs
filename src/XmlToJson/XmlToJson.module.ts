@@ -6,4 +6,4 @@ import { XmlToJsonController } from './XmlToJson.controller';
   controllers: [XmlToJsonController],
   providers: [XmlToJsonService],
 })
-export class UserModule {}
+export class XmlToJsonModule {}
